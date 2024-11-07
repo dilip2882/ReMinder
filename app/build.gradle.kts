@@ -8,11 +8,11 @@ plugins {
 }
 
     android {
-    namespace = "com.dilip.reminder"
+    namespace = "com.dilip.reminderapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.dilip.reminder"
+        applicationId = "com.dilip.reminderapp"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -54,6 +54,8 @@ dependencies {
     implementation(libs.bundles.compose.android)
     implementation(libs.coil.compose)
     implementation(libs.splashscreen)
+
+    implementation(libs.compose.material)
 
     // Room
     implementation(libs.androidx.room.runtime)

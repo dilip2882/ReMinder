@@ -62,6 +62,8 @@ ui-util = { module = "androidx.compose.ui:ui-util" }
 compose-ui-test-junit = { module = "androidx.compose.ui:ui-test-junit4", version.ref = "compose-ui" }
 compose-ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest", version.ref = "compose-ui" }
 
+compose-material = { module = "androidx.compose.material:material", name = "1.6.8" }
+
 material3-core = { module = "androidx.compose.material3:material3", version.ref = "material3" }
 material-icons = { module = "androidx.compose.material:material-icons-extended", version.ref = "compose-ui" }
 
@@ -78,7 +80,7 @@ work-manager-dagger = { module = "androidx.hilt:hilt-work", version = "1.2.0" }
 
 # Navigation
 navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "composeNavigation" }
-kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization"}
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
 
 #networking
 retrofit = { module = "com.squareup.retrofit2:retrofit", version = "2.9.0" }
